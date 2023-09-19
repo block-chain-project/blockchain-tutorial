@@ -46,9 +46,6 @@ func (b *Block) SetHash() {
 	timestamp := []byte(strconv.FormatInt(b.Timestamp, 10))
 	// 当前区块hash = sha256(上一个数据hash + 数据 + 时间截)
 	headers := bytes.Join([][]byte{b.PrevBlockHash, b.Data, timestamp}, []byte{})
-
-	bytes.Join()
-
 	hash := sha256.Sum256(headers)
 
 	b.Hash = hash[:]
