@@ -4,13 +4,12 @@ import (
 	"time"
 )
 
-// Nonce 在对工作量证明进行验证时用到
 type Block struct {
 	Timestamp     int64
 	PrevBlockHash []byte
 	Hash          []byte
 	Data          []byte
-	Nonce         int
+	Nonce         int //在对工作量证明进行验证时用到
 }
 
 // 创建新块时需要运行工作量证明找到有效哈希

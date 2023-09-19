@@ -1,0 +1,7 @@
+go 1.19
+
+use (
+	./block-chain-go
+	./content/part-1/src
+	./content/part-2/src
+)
