@@ -2,6 +2,8 @@ go 1.19
 
 use (
 	./block-chain-go
-	./content/part-1/src
-	./content/part-2/src
+	./content/part-1
+	./content/part-2
+	./content/part-3
+	./content/part-4
 )

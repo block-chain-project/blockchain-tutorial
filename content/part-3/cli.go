@@ -18,7 +18,7 @@ Usage:
 `
 
 func (cli *CLI) printUsage() {
-	fmt.Println(usage)
+	fmt.Print(usage)
 }
 
 func (cli *CLI) validateArgs() {

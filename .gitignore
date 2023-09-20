@@ -14,5 +14,6 @@ blockchain.db
 
 _book/
 node_modules/
+blockchain
 
 ### Above combination will ignore all files without extension ###
